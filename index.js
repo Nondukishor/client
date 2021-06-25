@@ -17,8 +17,8 @@ app.use(express.static('public'))
 
 
 
-app.get('/', (req, res) => {
-    res.render('home', {layout: 'index', listExists: true});
+app.get('/', (req, res, next) => {
+    res.render('home', {layout: 'index', listExists: true})
 });
 
 app.listen(port, () => console.log(`App listening to port ${port}`));
