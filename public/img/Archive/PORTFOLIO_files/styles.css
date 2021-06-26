@@ -1,0 +1,14 @@
+.custom-navbar{
+   display: inline;
+}
+.home-bg{
+ background-image: url('https://polar-bayou-81240.herokuapp.com/img/home-bg.jpeg');
+ background-size: cover;
+ height: 500px;
+}
+.home-intro{
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
